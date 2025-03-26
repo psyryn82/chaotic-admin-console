@@ -1,0 +1,42 @@
+# 🌐 Chaotic Admin Console – Master Feature List
+
+## 🧩 UNIFIED ADMIN CONSOLE
+- Single React UI (Dashboard, Admin Panel, Grid, AI)
+- Sidebar navigation
+- Responsive design (mobile-friendly)
+- Dark mode theme with cyan branding
+
+## 📊 MOBILE DASHBOARD
+- Live restart countdown
+- Grid overview: name, type, player count, status color
+
+## 🛠 ADMIN PANEL
+- Grid selection A1–E5
+- Start / Stop server buttons (via `.bat`)
+- RCON broadcast to selected grid
+- Load / view `config.json`
+
+## 🗺 GRID VISUALIZER
+- Interactive 5x5 ATLAS map
+- Status via RCON port checks
+- Tooltip with role + player count
+
+## 🧠 AI LOG ANALYZER
+- Scans 25 grid log folders
+- Detects fatal errors, OOM, assert fails
+- Summarizes issues in plain English
+- Extendable for Discord/web alerts
+
+## 🖥 ELECTRON GUI + AUTO-UPDATER
+- `.exe` version of the console
+- System tray icon, launch + Flask backend
+- Auto-updates via GitHub Releases
+
+## 🚀 GITHUB ACTIONS CI
+- Builds `.exe` + `.Setup.exe` when you push a tag (e.g. `v1.0.0`)
+- Publishes files to GitHub Releases
+
+## 🧰 DEV TOOLS & STRUCTURE
+- `/client/`, `/server/`, `/data/`, `/dist/`, `main.js`, `package.json`
+- Local test server and overlay system
+- JSON auto-sync + restart tool
