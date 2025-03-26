@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+.app {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  background: #222;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sidebar a.active {
+  color: #00e5ff;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
